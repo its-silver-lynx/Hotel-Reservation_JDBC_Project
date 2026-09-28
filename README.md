@@ -53,16 +53,12 @@ CREATE TABLE reservations (
 * `Statement`
 * `ResultSet`
 * SQL CRUD Operations
-* `try-with-resources`
 * User Input using `Scanner`
 
-## 🔮 Future Improvements
+## Usage 📋
+Upon running the application, you'll be presented with a menu to choose your desired operation (reservation, viewing, editing, or exiting).
 
-* Replace `Statement` with `PreparedStatement`
-* Add room availability checking
-* Improve input validation
-* Separate database and application logic
-* Add a GUI or convert it into a web application
+Follow the prompts to input reservation details, view current reservations, edit existing bookings, and more.
 
 ## 👨‍💻 Author
 
