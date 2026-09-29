@@ -27,3 +27,23 @@
 2026-09-28 05:16:34.143: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-28 05:16:34.143: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-28 05:35:23.964: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-28 08:02:46.364: [INFO] CurrentProfilePath: D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-28 08:02:46.364: [INFO] Profiles total count: 1
+2026-09-28 08:02:46.365: [INFO] Profile: name=Profile 1 path=D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-28T04:52:50.528Z
+2026-09-28 08:02:46.365: [INFO] LastUsedProfileDir: D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-28 08:02:46.365: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-28T04:52:50.528Z
+2026-09-28 08:02:46.365: [INFO] OnDoneLoading sync enabled: 0
+2026-09-28 08:02:46.365: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-28 08:02:46.365: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-28 08:02:46.365: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-28 08:34:52.324: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-28 08:38:52.189: [INFO] CurrentProfilePath: D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-28 08:38:52.189: [INFO] Profiles total count: 1
+2026-09-28 08:38:52.190: [INFO] Profile: name=Profile 1 path=D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-28T04:52:50.528Z
+2026-09-28 08:38:52.190: [INFO] LastUsedProfileDir: D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-28 08:38:52.190: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Workspaces\Hotel-Reservation_JDBC_Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-28T04:52:50.528Z
+2026-09-28 08:38:52.190: [INFO] OnDoneLoading sync enabled: 0
+2026-09-28 08:38:52.190: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-28 08:38:52.190: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-28 08:38:52.190: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-28 10:55:26.317: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

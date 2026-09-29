@@ -18,8 +18,7 @@ public class HotelReservationSystem {
             System.out.println(e.getMessage());
         }
 
-        try{
-        	Connection connection = DriverManager.getConnection(url, username, password);
+        try{Connection connection = DriverManager.getConnection(url, username, password);
             while(true){
             	Scanner scanner = new Scanner(System.in);
                 System.out.println();
@@ -53,15 +52,17 @@ public class HotelReservationSystem {
                         scanner.close();
                         return;
                     default:
-                        System.out.println("Invalid choice. Try again.");
+                        System.out.println("Invalid choice. Try again.")
                 }
-            }
+            };
 
         }catch (SQLException e){
             System.out.println(e.getMessage());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     private static void reserveRoom(Connection connection, Scanner scanner) {

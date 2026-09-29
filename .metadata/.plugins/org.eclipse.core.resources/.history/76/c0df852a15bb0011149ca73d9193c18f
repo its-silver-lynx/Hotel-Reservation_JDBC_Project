@@ -19,7 +19,7 @@ public class HotelReservationSystem {
         }
 
         try{
-        	Connection connection = DriverManager.getConnection(url, username, password);
+            Connection connection = DriverManager.getConnection(url, username, password);
             while(true){
             	Scanner scanner = new Scanner(System.in);
                 System.out.println();
@@ -62,6 +62,8 @@ public class HotelReservationSystem {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     private static void reserveRoom(Connection connection, Scanner scanner) {
@@ -77,7 +79,7 @@ public class HotelReservationSystem {
             String sql = "INSERT INTO reservations (guest_name, room_number, contact_number) " +
                     "VALUES ('" + guestName + "', " + roomNumber + ", '" + contactNumber + "')";
 
-            try (Statement statement = connection.createStatement()) { //this is called - Try with resource
+            try (Statement statement = connection.createStatement()) {
                 int affectedRows = statement.executeUpdate(sql);
 
                 if (affectedRows > 0) {
@@ -92,7 +94,7 @@ public class HotelReservationSystem {
     }
 
     private static void viewReservations(Connection connection) throws SQLException {
-    	String sql = "SELECT reservation_id, guest_name, room_number, contact_number, reservation_date FROM reservations";
+        String sql = "SELECT reservation_id, guest_name, room_number, contact_number, reservation_date FROM reservations";
 
         try (Statement statement = connection.createStatement();
              ResultSet resultSet = statement.executeQuery(sql)) {

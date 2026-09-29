@@ -18,8 +18,7 @@ public class HotelReservationSystem {
             System.out.println(e.getMessage());
         }
 
-        try{
-        	Connection connection = DriverManager.getConnection(url, username, password);
+        try{Connection connection = DriverManager.getConnection(url, username, password);
             while(true){
             	Scanner scanner = new Scanner(System.in);
                 System.out.println();
@@ -62,6 +61,8 @@ public class HotelReservationSystem {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     private static void reserveRoom(Connection connection, Scanner scanner) {
