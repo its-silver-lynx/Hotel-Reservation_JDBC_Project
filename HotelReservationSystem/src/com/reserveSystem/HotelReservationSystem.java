@@ -77,7 +77,7 @@ public class HotelReservationSystem {
             String sql = "INSERT INTO reservations (guest_name, room_number, contact_number) " +
                     "VALUES ('" + guestName + "', " + roomNumber + ", '" + contactNumber + "')";
 
-            try (Statement statement = connection.createStatement()) { //this is called - Try with resource
+            try (Statement statement = connection.createStatement()) {
                 int affectedRows = statement.executeUpdate(sql);
 
                 if (affectedRows > 0) {
