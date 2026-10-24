@@ -138,7 +138,7 @@ public class HotelReservationSystem {
                     System.out.println("Room number for Reservation ID " + reservationId +
                             " and Guest " + guestName + " is in: " + roomNumber);
                 } else {
-                    System.out.println("Reservation not found for the given ID and guest name.");
+                    System.out.println("Reservation not found for the given ID and guest Name.");
                 }
             }
         } catch (SQLException e) {
