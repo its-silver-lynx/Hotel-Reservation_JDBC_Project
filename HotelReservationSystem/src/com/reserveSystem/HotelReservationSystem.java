@@ -136,7 +136,7 @@ public class HotelReservationSystem {
                 if (resultSet.next()) {
                     int roomNumber = resultSet.getInt("room_number");
                     System.out.println("Room number for Reservation ID " + reservationId +
-                            " and Guest " + guestName + " is in: " + roomNumber);
+                            " and Guest " + guestName + " is : " + roomNumber);
                 } else {
                     System.out.println("Reservation not found for the given ID and guest Name.");
                 }
